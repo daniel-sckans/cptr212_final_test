@@ -1,0 +1,62 @@
+// Write your random_array code definitions here, to be used inside of main.c.  
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
+#include "cptr212_final_test/random_array.h"
+
+void random_array_sort(random_array_t* random_array); 
+void random_array_print(random_array_t* random_array); 
+
+typedef struct random_array_t random_array_t; 
+
+int main(int argc, char** argv)
+{
+    
+    random_array[];
+
+
+    return EXIT_SUCCESS;
+}
+
+typedef struct random_array_t{
+
+    int size;
+    int min;
+    int max;
+
+}random_arrray_t;
+
+random_array_t* random_array_ctor(){
+    random_array_t* ra = mallac(sizeof(random_array_t));
+
+    ra->size = 64;
+    ra->min = 150;
+    ra->max = 200;
+
+    return ra;
+}
+
+void random_array_print(random_array_t* random_array)
+{
+
+}
+
+void random_array_sort(random_array_t* random_array)
+{
+    ra->size;
+    ra->min;
+    ra->max;
+
+    for(int i = 0; ra->min <= i < ra->max; i++)
+    {
+
+    }
+}
+
+void random_array_dtor(random_array_t* ra)
+{
+    free(ra->size);
+    free(ra->min);
+    free(ra->max);
+    free(ra);
+}
