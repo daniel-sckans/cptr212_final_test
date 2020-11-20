@@ -6,4 +6,4 @@ Leave the "random_array.h" header file unchanged.  It defines an API that you ar
 
 Look at the declarations in the header file, and create your own definitions of them in the "random_array.c" file.  Then test your definitions in the "random_array_test.c" file.  
 
-To submit the assignment, commit your changes to your own repo (do not issue a pull request).  The test ends at 11:50AM, and any commits made after that time will not contribute to your grade.  
+The test ends at 11:45AM, and any commits made after that time will not contribute to your grade.  At that point push the changes to your repo and submit a pull request (do not do so beforehand).  
